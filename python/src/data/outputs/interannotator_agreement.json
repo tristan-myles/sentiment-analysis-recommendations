@@ -1,0 +1,102 @@
+{
+  "uk": {
+    "stats": {
+      "n_after_language_filter": 460,
+      "pct_complete_agreement": 0.5935,
+      "fleiss_kappa_overall": 0.573,
+      "fleiss_kappa_negative": 0.6996,
+      "fleiss_kappa_neutral": 0.3837,
+      "fleiss_kappa_positive": 0.6016,
+      "pairwise_cohens_kappa": {
+        "annotator_1_annotator_2": 0.5488,
+        "annotator_1_annotator_3": 0.5438,
+        "annotator_2_annotator_3": 0.6393
+      },
+      "n_after_sentiment_match_filter": 446,
+      "n_final": 430,
+      "pct_majority_labeled": 0.9696,
+      "n_no_majority_sentiment": 14,
+      "n_no_majority_covid_or_uk": 16,
+      "n_excluded_total": 30,
+      "n_not_english_agreed": 3
+    },
+    "confusion": {
+      "annotator_1_vs_annotator_2": {
+        "neutral_confusion": 111,
+        "polar_confusion": 24,
+        "total_misclassifications": 135
+      },
+      "annotator_1_vs_annotator_3": {
+        "neutral_confusion": 125,
+        "polar_confusion": 17,
+        "total_misclassifications": 142
+      },
+      "annotator_2_vs_annotator_3": {
+        "neutral_confusion": 92,
+        "polar_confusion": 19,
+        "total_misclassifications": 111
+      },
+      "aggregate": {
+        "neutral_confusion": 328,
+        "total_misclassifications": 388,
+        "pct_neutral_of_misclassifications": 84.5
+      }
+    }
+  },
+  "fr": {
+    "n_compared": 300,
+    "cohens_kappa_overall": 0.6407,
+    "cohens_kappa_negative": 0.7091,
+    "cohens_kappa_neutral": 0.5803,
+    "cohens_kappa_positive": 0.6237,
+    "n_polar_confusion": 12,
+    "n_neutral_confusion": 58,
+    "n_total_misclassifications": 70,
+    "pct_neutral_of_misclassifications": 82.9,
+    "confusion_matrix": {
+      "-1": {
+        "-1": 107,
+        "0": 25,
+        "1": 8
+      },
+      "0": {
+        "-1": 6,
+        "0": 76,
+        "1": 7
+      },
+      "1": {
+        "-1": 4,
+        "0": 20,
+        "1": 47
+      }
+    }
+  },
+  "de": {
+    "n_compared": 300,
+    "cohens_kappa_overall": 0.4972,
+    "cohens_kappa_negative": 0.588,
+    "cohens_kappa_neutral": 0.4214,
+    "cohens_kappa_positive": 0.4658,
+    "n_polar_confusion": 15,
+    "n_neutral_confusion": 82,
+    "n_total_misclassifications": 97,
+    "pct_neutral_of_misclassifications": 84.5,
+    "confusion_matrix": {
+      "-1": {
+        "-1": 102,
+        "0": 41,
+        "1": 9
+      },
+      "0": {
+        "-1": 6,
+        "0": 68,
+        "1": 14
+      },
+      "1": {
+        "-1": 6,
+        "0": 21,
+        "1": 33
+      }
+    }
+  }
+}
